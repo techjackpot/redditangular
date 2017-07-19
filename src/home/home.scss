@@ -1,0 +1,30 @@
+.home-container {
+	.item-container {
+		display: flex;
+		align-items: flex-top;
+		&>div {
+			margin: 10px;
+		}
+		.ups {
+			font-size: 20px;
+			color: #aaa;
+			width: 80px;
+			text-align: center;
+			flex: none;
+		}
+		.preview {
+			flex: none;
+			width: 70px;
+			img {
+				width: 100%;
+				display: block;
+			}
+		}
+		.title {
+			font-size: 14px;
+			.subtitle {
+				font-size: 10px;
+			}
+		}
+	}
+}
